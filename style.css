@@ -19,8 +19,8 @@ main {
 
 .qr-image {
     border-radius: 10px;
-    height: 290px;
-    width: 290px;
+    width: 300px;
+    display: block;
 }
 
 .info {
@@ -31,11 +31,16 @@ main {
 .title{
     font-size: 20px;
     font-weight: 700;
+    max-width: 250px;
+    margin-left: 25px;
+    padding-top: 10px;
 }
 .details {
     font-size: 15px;
     font-weight: 400;
     text-align:  center;
+    padding: 15px;
+    max-width: 250px;
     color: hsl(220, 15%, 55%);
 
 }
